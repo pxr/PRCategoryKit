@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/pxr/PRCategoryKit"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Paul Robinson" => "paul@elasticrat.com" }
-  s.source       = { :git => "https://github.com/pxr/PRCategoryKit.git", :tag => '1.0.0' }
+  s.source       = { :git => "https://github.com/pxr/PRCategoryKit.git", :tag => '1.0.1' }
   s.platform     = :ios
   s.source_files = 'src'
   s.requires_arc = true
