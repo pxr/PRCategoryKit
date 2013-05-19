@@ -16,3 +16,14 @@ NSArray *array = @[@"the", @"quick", @"brown", @"fox"];
 NSLog(@"%@", [array toString]); // # => "[ the, quick, brown, fox ]"
 ```
 
+## UIView+PRSizer
+
+Adds convenience methods to UIView (and derivationgs like UIControl) to make it simple to change only the size of the views frame.
+
+### Example Usage
+
+```objective-c
+self.frameSize = CGSizeMake(44.0, 44.0);
+self.frameWidth = 44.0;
+self.frameHeight = 44.0;
+```
